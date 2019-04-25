@@ -1,0 +1,7 @@
+var cdnPathTable = require('./cdnPathTable.wxs');
+
+var cdnPath = cdnPathTable.local;
+
+module.exports = {
+  cdnPath: cdnPath,
+};

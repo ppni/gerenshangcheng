@@ -1,24 +1,19 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
+	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wxb61136639a8f1189",
-	"projectname": "%E4%B8%AA%E4%BA%BA%E5%95%86%E5%9F%8E",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
+	"libVersion": "2.4.1",
+	"appid": "wxef6bf5efcb99c709",
+	"projectname": "ez-wxlite",
 	"isGameTourist": false,
+	"miniprogramRoot": "client/",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -30,13 +25,24 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "调试",
+					"pathName": "pages/test/index",
+					"query": ""
+				}
+			]
 		}
 	}
 }
